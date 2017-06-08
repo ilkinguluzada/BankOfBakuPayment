@@ -5,10 +5,10 @@ if(!empty($_POST["packet_id"])){
       //Sifarish melumatlari
       $packet_id = $_POST['packet_id'];
       
-		$servername = "localhost";
-     	$username = "ilkin202_techno";
-     	$password = "salam123";
-    	$dbname = "ilkin202_rufaly";
+		$servername = "";
+     	$username = "";
+     	$password = "";
+    	$dbname = "";
     	 
 	// Create connection
 	$conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -38,14 +38,14 @@ if(!empty($_POST["packet_id"])){
       $user_email = $row_head['email'];
       $user_name = $row_head['username'];
       
-      $successurl = "https://www.rufaly.com/success.php";
+      $successurl = "";
       
-      $failurl = "https://www.rufaly.com/fail.php";
+      $failurl = "";
      
       
       //key
-      $openKey = "NneHXTXNnzNiizVeF1u8OHEB8oDuzc";
-      $privateKey = "hdqlKd4yRiYur6Ucbp4vnJ2Sa17Elw";
+      $openKey = "";
+      $privateKey = "";
       
 	
 	$cardType = $_POST['cardType'];
